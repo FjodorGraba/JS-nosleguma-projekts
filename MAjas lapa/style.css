@@ -1,0 +1,40 @@
+
+.line {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    font-size: 50px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2000px;
+}
+.red{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 50px 100px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
